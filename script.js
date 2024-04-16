@@ -1,5 +1,8 @@
 var area = document.getElementById('area')
 
 function entrar (){
-  alert("Clicou")
+var nome = prompt("Digite seu nome");
+
+area.innerHTML = "Bem vindo " + nome;
+
 }
